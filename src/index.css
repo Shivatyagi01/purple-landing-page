@@ -92,10 +92,10 @@ h2.title {
   border-right: none !important;
 }
 .no-padding {
-  padding-top: none !important;
-  padding-bottom: none !important;
-  padding-left: none !important;
-  padding-right: none !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 /* typefaces styles */
 p {

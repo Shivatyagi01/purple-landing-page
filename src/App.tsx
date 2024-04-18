@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Solutions from "./components/Solutions/Solutions";
 import Business from "./components/Business/Business";
+import About from "./components/About/About";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Solutions />
       <Business />
+      <About />
     </>
   );
 }

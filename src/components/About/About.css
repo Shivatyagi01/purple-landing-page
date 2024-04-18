@@ -1,0 +1,51 @@
+.who-we-are {
+}
+.who-we-are .section-title .paragraph-title {
+  font-size: 18px;
+  line-height: 27px;
+}
+.who-we-are .about-cont {
+  margin-top: 100px;
+}
+.who-we-are .about-cont .row .col:nth-child(1) {
+  max-width: 45%;
+}
+.who-we-are .about-cont .row {
+  align-items: center;
+}
+.who-we-are .about-cont-wrap {
+}
+.who-we-are .about-cont-wrap h2 {
+  font-size: 60px;
+  line-height: 60px;
+  color: #00b011;
+  font-weight: 500;
+}
+.who-we-are .about-cont-wrap p {
+  line-height: 27px;
+  font-size: 18px;
+  color: #00473c;
+  font-weight: 400;
+}
+.who-we-are .about-cont-wrap hr {
+  border-top: 1px solid var(--borders);
+  margin: 20px 0;
+}
+.who-we-are .about-cont-wrap ul {
+}
+.who-we-are .about-cont-wrap ul li {
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00473c;
+}
+
+.who-we-are .about-img {
+  min-width: 70%;
+}
+
+.who-we-are .about-img img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
