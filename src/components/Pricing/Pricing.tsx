@@ -63,15 +63,41 @@ const Pricing = () => {
                     $ <span className="price">39</span>/month
                   </div>
                   <p>Lorem ipsum dolor sit amet.</p>
+                  <hr />
+                  <div className="pricing-plan-box">
+                    <a className="primary-button pricing-plan-heading">
+                      Choose Plan
+                    </a>
+                    <ul>
+                      <li>Customer Management</li>
+                      <li>Mobile Apps</li>
+                      <li>Email Support</li>
+                      <li>Browser extension</li>
+                      <li>Calendar integration</li>
+                    </ul>
+                  </div>
                 </div>
               </Col>
               <Col>
-                <div className="pricing-wrap">
+                <div className="pricing-wrap recommended">
                   <h6>Basic Plan</h6>
                   <div className="price-big">
                     $ <span className="price">60</span>/month
                   </div>
                   <p>Lorem ipsum dolor sit amet.</p>
+                  <hr />
+                  <div className="pricing-plan-box">
+                    <a className="primary-button pricing-plan-heading">
+                      Choose Plan
+                    </a>
+                    <ul>
+                      <li>Customer Management</li>
+                      <li>Mobile Apps</li>
+                      <li>Email Support</li>
+                      <li>Browser extension</li>
+                      <li>Calendar integration</li>
+                    </ul>
+                  </div>
                 </div>
               </Col>
               <Col>
@@ -81,6 +107,19 @@ const Pricing = () => {
                     $ <span className="price">90</span>/month
                   </div>
                   <p>Lorem ipsum dolor sit amet.</p>
+                  <hr />
+                  <div className="pricing-plan-box">
+                    <a className="primary-button pricing-plan-heading">
+                      Choose Plan
+                    </a>
+                    <ul>
+                      <li>Customer Management</li>
+                      <li>Mobile Apps</li>
+                      <li>Email Support</li>
+                      <li>Browser extension</li>
+                      <li>Calendar integration</li>
+                    </ul>
+                  </div>
                 </div>
               </Col>
             </Row>
@@ -96,15 +135,41 @@ const Pricing = () => {
                     $ <span className="price">390</span>/yearly
                   </div>
                   <p>Lorem ipsum dolor sit amet.</p>
+                  <hr />
+                  <div className="pricing-plan-box">
+                    <a className="primary-button pricing-plan-heading">
+                      Choose Plan
+                    </a>
+                    <ul>
+                      <li>Customer Management</li>
+                      <li>Mobile Apps</li>
+                      <li>Email Support</li>
+                      <li>Browser extension</li>
+                      <li>Calendar integration</li>
+                    </ul>
+                  </div>
                 </div>
               </Col>
               <Col>
-                <div className="pricing-wrap">
+                <div className="pricing-wrap recommended">
                   <h6>Basic Plan</h6>
                   <div className="price-big">
                     $ <span className="price">600</span>/yearly
                   </div>
                   <p>Lorem ipsum dolor sit amet.</p>
+                  <hr />
+                  <div className="pricing-plan-box">
+                    <a className="primary-button pricing-plan-heading">
+                      Choose Plan
+                    </a>
+                    <ul>
+                      <li>Customer Management</li>
+                      <li>Mobile Apps</li>
+                      <li>Email Support</li>
+                      <li>Browser extension</li>
+                      <li>Calendar integration</li>
+                    </ul>
+                  </div>
                 </div>
               </Col>
               <Col>
@@ -114,6 +179,19 @@ const Pricing = () => {
                     $ <span className="price">800</span>/yearly
                   </div>
                   <p>Lorem ipsum dolor sit amet.</p>
+                  <hr />
+                  <div className="pricing-plan-box">
+                    <a className="primary-button pricing-plan-heading">
+                      Choose Plan
+                    </a>
+                    <ul>
+                      <li>Customer Management</li>
+                      <li>Mobile Apps</li>
+                      <li>Email Support</li>
+                      <li>Browser extension</li>
+                      <li>Calendar integration</li>
+                    </ul>
+                  </div>
                 </div>
               </Col>
             </Row>
