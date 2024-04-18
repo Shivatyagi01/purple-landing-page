@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+  font-family: "Wix Madefor Display";
+}
+:root {
+  --primary-dark: #00473c;
+  --primary: #00b011;
+  --borders: #e1dcd4;
+  --primary-light: #faf9f6;
+  --dark: #082b24;
+  --white: white;
+  --hover-button: #00a310;
+  --light-green: #d6f1a2;
+  --light-gray\<deleted\|variable-720418ab\>: #f9f9fa;
+  --dark-gray\<deleted\|variable-e2382e90\>: #afafaf;
+  --button-secondary: #eeebda;
+  --hover-light-button: #e6e1c8;
+  --dark-bg: #181a1a;
+}
+.primary-button {
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: var(--white);
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: none;
+  border-radius: 7px;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3em;
+  transition: all 0.3s;
+  display: inline-block;
+}
+.primary-button.full-width {
+  width: 100%;
+  margin-top: 15px;
+}
+section {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+/* section title */
+
+.section-title {
+}
+.subtitle {
+  font-size: 18px;
+  line-height: 16px;
+  color: #00473c;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+h2.title {
+  font-size: 48px;
+  line-height: 58px;
+  color: #00473c;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.grid-section {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  flex-flow: row;
+  grid-template-rows: auto;
+  grid-template-columns: 1.5fr 0.5fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: stretch;
+  width: 100%;
+  display: flex;
+}
+.paragraph-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #00473c;
+  font-weight: 400;
+  width: 60%;
+}
