@@ -1,0 +1,55 @@
+.pricing-section .title-btn {
+}
+.pricing-section .title-btn .primary-button {
+  padding: 10px 20px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--button-secondary);
+  color: var(--primary-dark);
+  border-radius: 7px;
+}
+.pricing-section .title-btn .primary-button:nth-child(1) {
+  margin-right: 10px;
+}
+.pricing-section .title-btn .active.primary-button {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+.pricing-wrapper {
+  margin-top: 60px;
+}
+.pricing-wrap {
+  border: 1px solid var(--borders);
+  background-color: var(--primary-light);
+  border-radius: 10px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 60px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+.pricing-wrap h6 {
+  color: var(--primary-dark);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Wix Madefor Display, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+.pricing-wrap .price-big {
+  margin-top: 15px;
+  font-size: 20px;
+  color: var(--hover-button);
+}
+.pricing-wrap .price {
+  color: var(--primary-dark);
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 1em;
+}
