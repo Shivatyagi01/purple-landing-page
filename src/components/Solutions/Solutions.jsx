@@ -1,6 +1,11 @@
 import React from "react";
-import './Solutions.css'
-import { Button, Container } from "react-bootstrap";
+import "./Solutions.css";
+import { Button, Container, Row, Col } from "react-bootstrap";
+// images
+import icon1 from "../../assets/images/Icon-1.png";
+import icon2 from "../../assets/images/Icon-2.png";
+import icon3 from "../../assets/images/Icon-3.png";
+import icon4 from "../../assets/images/Icon-4.png";
 const Solutions = () => {
   return (
     <section className="solutions-section">
@@ -18,6 +23,50 @@ const Solutions = () => {
               <Button className="primary-button">Consultation</Button>
             </div>
           </div>
+        </div>
+        <div className="solutions-columns-wrap">
+          <Row>
+            <Col>
+              <div className="solution-wrap column-box">
+                <img className="icon-solution" src={icon1} alt="" />
+                <h3>Data Analytics</h3>
+                <p>
+                  Data analytics empowers businesses to make informed decisions
+                  based on evidence rather than intuition.
+                </p>
+              </div>
+            </Col>
+            <Col>
+              <div className="solution-wrap column-box">
+                <img className="icon-solution" src={icon2} alt="" />
+                <h3>Marketing</h3>
+                <p>
+                  Marketing empowers businesses to make informed decisions based
+                  on evidence rather than intuition.
+                </p>
+              </div>
+            </Col>
+            <Col>
+              <div className="solution-wrap column-box">
+                <img className="icon-solution" src={icon3} alt="" />
+                <h3>Website Design</h3>
+                <p>
+                  Website Design empowers businesses to make informed decisions
+                  based on evidence rather than intuition.
+                </p>
+              </div>
+            </Col>
+            <Col>
+              <div className="solution-wrap column-box no-border">
+                <img className="icon-solution" src={icon4} alt="" />
+                <h3>Business Strategy</h3>
+                <p>
+                  Strategy empowers businesses to make informed decisions based
+                  on evidence rather than intuition.
+                </p>
+              </div>
+            </Col>
+          </Row>
         </div>
       </Container>
     </section>

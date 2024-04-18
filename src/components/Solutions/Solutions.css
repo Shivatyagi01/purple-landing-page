@@ -1,2 +1,26 @@
 .solutions-section {
 }
+.solutions-columns-wrap {
+  margin-top: 40px;
+  padding: 30px 0;
+  background-color: var(--primary-light);
+  border-radius: 7px;
+}
+.solutions-columns-wrap .solution-wrap {
+  padding: 10px 25px;
+  border-right: 1px solid var(--borders);
+  height: 100%;
+}
+.solutions-columns-wrap .solution-wrap .icon-solution {
+  width: 60px;
+  margin-bottom: 10px;
+}
+.solutions-columns-wrap .solution-wrap h3 {
+  color: #00473c;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+}
+.solutions-columns-wrap .solution-wrap p {
+  margin-bottom: 0;
+}
