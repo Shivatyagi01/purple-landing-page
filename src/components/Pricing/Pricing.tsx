@@ -87,7 +87,7 @@ const Pricing = () => {
                   <p>Lorem ipsum dolor sit amet.</p>
                   <hr />
                   <div className="pricing-plan-box">
-                    <a className="primary-button pricing-plan-heading">
+                    <a className="primary-button-white pricing-plan-heading">
                       Choose Plan
                     </a>
                     <ul>
@@ -159,7 +159,7 @@ const Pricing = () => {
                   <p>Lorem ipsum dolor sit amet.</p>
                   <hr />
                   <div className="pricing-plan-box">
-                    <a className="primary-button pricing-plan-heading">
+                    <a className="primary-button-white pricing-plan-heading">
                       Choose Plan
                     </a>
                     <ul>

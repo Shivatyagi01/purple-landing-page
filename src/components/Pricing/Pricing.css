@@ -70,7 +70,8 @@
   display: flex;
   position: relative;
 }
-.pricing-plan-box .primary-button {
+.pricing-plan-box .primary-button,
+.pricing-plan-box .primary-button-white {
   margin-top: -40px;
 }
 .pricing-plan-box ul li {
@@ -92,4 +93,11 @@
 }
 .pricing-wrap.recommended hr {
   border-top: 1px solid var(--white);
+}
+.pricing-wrap.recommended .pricing-plan-box {
+  background-color: #005d4f;
+  border: 1px solid #005d4f;
+}
+.pricing-wrap.recommended .pricing-plan-box ul li {
+  color: #ffffff;
 }
