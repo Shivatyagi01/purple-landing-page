@@ -9,6 +9,7 @@ import About from "./components/About/About";
 import Pricing from "./components/Pricing/Pricing";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Blog from "./components/Blog/Blog";
+import Marquee from "./components/Marquee/Marquee";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
       <Pricing />
       <Testimonials />
       <Blog />
+      <Marquee />
     </>
   );
 }

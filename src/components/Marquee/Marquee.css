@@ -1,0 +1,42 @@
+.marquee-container {
+  display: flex;
+  width: 300%;
+  padding: 50px 0;
+}
+.marquee-container h1 {
+  font-size: 140px;
+  line-height: 140px;
+  color: #e6e1c899;
+  font-weight: 400;
+}
+.dot {
+  width: 30px;
+  height: 30px;
+  background-color: #e6e1c899;
+  border-radius: 50%;
+  display: inline-block;
+}
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 40s linear infinite;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.marquee-content h1 {
+  display: inline-block;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
