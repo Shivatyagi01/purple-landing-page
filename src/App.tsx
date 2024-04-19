@@ -10,6 +10,8 @@ import Pricing from "./components/Pricing/Pricing";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Blog from "./components/Blog/Blog";
 import Marquee from "./components/Marquee/Marquee";
+import Faqs from "./components/Faqs/Faqs";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -22,6 +24,8 @@ function App() {
       <Testimonials />
       <Blog />
       <Marquee />
+      <Faqs />
+      <Footer />
     </>
   );
 }
