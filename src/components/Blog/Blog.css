@@ -1,0 +1,44 @@
+.blog-section {
+  background-color: var(--primary-light);
+  position: relative;
+}
+.blog-section .section-title {
+  margin-bottom: 40px;
+}
+.blog-section .blog-bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+}
+
+.blog-box {
+  background-color: #ffffff;
+  padding: 70px 40px;
+  border-radius: 10px;
+}
+.blog-box p.blog-date-meta {
+  color: var(--primary);
+}
+.blog-box p.blog-date-meta span {
+  color: #00473c;
+  font-weight: 600;
+  padding-right: 10px;
+}
+.blog-box h4 {
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--primary-dark);
+  font-weight: 500;
+}
+.blog-box a {
+  color: #00473c;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.blog-box a svg {
+  fill: var(--primary);
+}

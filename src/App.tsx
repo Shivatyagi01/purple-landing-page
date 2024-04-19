@@ -8,6 +8,7 @@ import Business from "./components/Business/Business";
 import About from "./components/About/About";
 import Pricing from "./components/Pricing/Pricing";
 import Testimonials from "./components/Testimonials/Testimonials";
+import Blog from "./components/Blog/Blog";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Pricing />
       <Testimonials />
+      <Blog />
     </>
   );
 }
