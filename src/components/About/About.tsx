@@ -1,4 +1,4 @@
-import React from "react";
+
 import './About.css';
 import { Container, Row, Col, Button } from "react-bootstrap";
 import aboutImg from "../../assets/images/Home-1.webp";

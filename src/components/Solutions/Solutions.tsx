@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Solutions.css";
 import { Button, Container, Row, Col } from "react-bootstrap";
 // images

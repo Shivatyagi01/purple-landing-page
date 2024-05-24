@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Business.css";
 import { Row, Col } from "react-bootstrap";
 import businessImg from "../../assets/images/Style-Guide.webp";

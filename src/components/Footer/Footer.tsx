@@ -23,8 +23,8 @@ const Footer = () => {
                   <textarea
                     name="message"
                     id=""
-                    cols="3"
-                    rows="4"
+                    cols={3}
+                    rows={4}
                     placeholder="Message"
                   ></textarea>
                   <input type="submit" className="primary-button"/>

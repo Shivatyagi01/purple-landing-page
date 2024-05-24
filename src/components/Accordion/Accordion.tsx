@@ -1,15 +1,21 @@
 import { useState } from "react";
-
-const Accordion = ({ items }) => {
+interface Item {
+  title: string;
+  content: string;
+}
+interface AccordionProps {
+  items: Item[];
+}
+const Accordion = ({ items }:AccordionProps) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const onItemClick = (index) => {
+  const onItemClick = (index:any) => {
     setActiveIndex(index === activeIndex ? null : index);
   };
 
   return (
     <div className="faq-accordion">
-      {items.map((item, index) => (
+      {items.map((item:any, index:any) => (
         <div key={index} className="faq-cont">
           <div
             onClick={() => onItemClick(index)}
